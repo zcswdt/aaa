@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Website Title</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EDF010G6PN"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EDF010G6PN');
+  </script>
+
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="https://unpkg.com/interactjs/dist/interact.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./static/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="./static/slick/slick-theme.css"/>
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More Research
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="https://github.com/zcswdt">
+            DRaMa
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+</body>
+</html>
+
+
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <div class="container has-text-centered">
+		<h1 class="title is-1 publication-title">
+		  DRaMa: Dual-Arm Robotic Fabric Manipulation <br/>
+		  with quasi-static and dynamic primitives for rapid garment flattening
+		</h1>
+        <div class="is-size-5 publication-authors">
+          <div class="author-block">
+            <div class="author-portrait">
+              <img src="./static/figures/zhou1.jpg" class="rgb preload" style="border-radius: 0; object-fit: contain;" />
+            </div>
+			<a href="https://github.com/zcswdt">ChangShi Zhou</a>
+          </div>
+          <div class="author-block">
+            <div class="author-portrait">
+              <img src="./static/figures/jiang.jpg" class="rgb preload" style="border-radius: 0; object-fit: contain;" />
+            </div>
+            Rong Jiang
+          </div>
+          <div class="author-block">
+            <div class="author-portrait">
+              <img src="./static/figures/luan.jpg" class="rgb preload" style="border-radius: 0; object-fit: contain;" />
+            </div>
+            Feng Luan
+          </div>
+          <div class="author-block">
+            <div class="author-portrait">
+              <img src="./static/figures/meng.jpg" class="rgb preload" style="border-radius: 0; object-fit: contain;" />
+            </div>
+            ShaoQiang Meng
+          </div>
+          <div class="author-block">
+            <div class="author-portrait">
+              <img src="./static/figures/wang.png" class="rgb preload" style="border-radius: 0; object-fit: contain;" />
+            </div>
+            Zhipeng Wang
+          </div>
+          <div class="author-block">
+            <div class="author-portrait">
+              <img src="./static/figures/dong.png" class="rgb preload" style="border-radius: 0; object-fit: contain;" />
+            </div>
+            Yanchao Dong
+          </div>
+          <div class="author-block">
+            <div class="author-portrait">
+              <img src="./static/figures/zhouyanmin.jpg" class="rgb preload" style="border-radius: 0; object-fit: contain;" />
+            </div>
+            Yanmin Zhou
+          </div>
+          <div class="author-block">
+            <div class="author-portrait">
+              <img src="./static/figures/hebing.jpg" class="rgb preload" style="border-radius: 0; object-fit: contain;" />
+            </div>
+            Bin He
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+        <div class="column has-text-centered">
+          <div class="publication-links">
+            <!-- PDF Link. -->
+            <span class="link-block">
+                <a href="https://github.com/zcswdt"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+            <span class="link-block">
+                <a href="https://github.com/zcswdt"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+            </span>
+            <span class="link-block">
+              <a href="https://github.com/zcswdt"
+                 class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                    <i class="fab fa-github"></i>
+                </span>
+                <span>Code(coming Soon)</span>
+                </a>
+            </span>
+              </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Service robots across industrial, medical, and
+            domestic environments face significant challenges in flattening
+            garments, primarily due to their nearly infinite degrees of freedom
+            and complex dynamic properties. Traditional quasi-static methods for
+            handling fabrics require extensive interactions and are inefficient.
+            While high-velocity dynamic actions enable efficient unfolding, they
+            are unable to perform fine-grained adjustments.
+          </p>
+          <p>
+            To address this, we
+            propose a self-supervised learning framework combining dynamic
+            (fling) and static (pick&place, pick&drag) manipulation primitives
+            using a dual-arm approach. This method unfolds crumpled garments
+            efficiently without expert demonstrations or hand-labeled data. We
+            introduce a novel factorized reward function based on garment
+            coverage, shape matching, and smoothness. Additionally, we employ
+            a Spatial Action Maps network, leveraging a ViT-Transformer
+            architecture, to accurately determine dual-arm grasping points. Our
+            approach significantly reduces interaction steps and improves fabric
+            coverage. We conducted simulations and real-world experiments on
+            five types of garments. Our approach quickly achieved over 80%
+            coverage within just two actions on long sleeves, surpassing the state-
+            of-the-art by approximately 9%, and reached 88%-92.9% coverage
+            across all categories within five actions. Our zero-shot sim-to-real
+            transfer has successfully been demonstrated on UR5 robots, proving
+            the model's effectiveness on various fabrics..
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+  </div>
+</section>
+
+<hr/>
+
+
+<div class="container is-max-desktop">
+    <div class="content has-text-justified">
+      <h2 class="title is-3">Approach Overview</h2>
+
+      <div class="has-text-centered">
+        <img style="width: 100%;" src="./static/images/net-v1.png"
+             alt="HyperNeRF architecture."/>
+      </div>
+	  <p>
+	    (a) In a workspace equipped with a dual-arm robot and a garment in an arbitrary crumpled configuration, a
+	    camera captures a top-down RGB image. (b) We perform image rotation and scaling to create a stack of transformed observations. (c) The
+	    stack of transformed observations and their positions are encoded. (d) Then, we predict the corresponding batch of value maps. The outputs of
+	    these encoders are decoded by the fling decoder, Pick & Place (P&P) decoder, and Pick & Drag (P&D) to generate Spatial Action Maps [15]
+	    for each primitive. (e) Batches for all primitives are concatenated to identify the highest value action. (f) The action to be executed is
+	    parameterized by the pixel with the maximum value..
+	  </p>
+	  
+    </div>
+  </div>
+</section>
+
+
+<hr/>
+
+
+<section class="hero teaser">
+  <div class="hero-body" style="background-color: #AAB6FE; padding: 20px 0;">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3" style="color: #FFFFFF; text-align: left; margin: 0;">Real World Experiments</h2>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+	  <div style="height: 20px;"></div> <!-- 间隔 -->
+	  <h3 class="subtitle is-4">1. Qualitative Comparison of Different Methods on Long Sleeve Garments</h3> <!-- 新添加的子标题 -->
+      <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+        <!-- 第一列视频，添加右侧间隔 -->
+        <div style="flex: 1 1 48%; margin-bottom: 20px; margin-right: 2%;">
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="./static/videos/sleeve-compare/pick-hard4.mp4" type="video/mp4">
+          </video>
+          <h3 class="has-text-centered">pick and place</h3>
+        </div>
+        <!-- 第二列视频 -->
+        <div style="flex: 1 1 48%; margin-bottom: 20px;">
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="./static/videos/sleeve-compare/drag-hard.mp4" type="video/mp4">
+          </video>
+          <h3 class="has-text-centered">pick and drag</h3>
+        </div>
+
+        <!-- 第一列的其他视频 -->
+        <div style="flex: 1 1 48%; margin-bottom: 20px; margin-right: 2%;">
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="./static/videos/sleeve-compare/fling-long.mp4" type="video/mp4">
+          </video>
+          <h3 class="has-text-centered">fling</h3>
+        </div>
+        <!-- 第二列的其他视频 -->
+        <div style="flex: 1 1 48%; margin-bottom: 20px;">
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="./static/videos/sleeve-compare/our.mp4" type="video/mp4">
+          </video>
+          <h3 class="has-text-centered" style="font-weight: bold; color: #FF0000;">Our Method</h3>
+        </div>
+		
+		<!-- 添加子标题 -->
+		<div style="width: 100%; margin-bottom: 20px;">
+		    <h3 class="subtitle is-4">2. The Performance of Our Method on Various Long Sleeve Garments</h3>
+		</div>
+		
+		
+        <!-- 更多视频和标题，保持同样的布局和间隔设置 -->
+        <div style="flex: 1 1 48%; margin-bottom: 20px; margin-right: 2%;">
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="./static/videos/sleeve-other/our-easy.mp4" type="video/mp4">
+          </video>
+          <h3 class="has-text-centered">Yellow Sleeve #1</h3>
+        </div>
+        <div style="flex: 1 1 48%; margin-bottom: 20px;">
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="./static/videos/sleeve-other/our-hard.mp4" type="video/mp4">
+          </video>
+          <h3 class="has-text-centered">Yellow Sleeve #2</h3>
+        </div>
+		
+        
+		<div style="flex: 1 1 48%; margin-bottom: 20px; margin-right: 2%;">
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="./static/videos/sleeve-other/green-sleeve.mp4" type="video/mp4">
+          </video>
+          <h3 class="has-text-centered">YGray Sleeve #2</h3>
+        </div>
+		
+        <div style="flex: 1 1 48%; margin-bottom: 20px;">
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="./static/videos/sleeve-other/red-sleeve.mp4" type="video/mp4">
+          </video>
+          <h3 class="has-text-centered">Red Sleeve #1</h3>
+        </div>
+
+
+
+
+		<!-- 添加子标题 -->
+		<div style="width: 100%; margin-bottom: 20px;">
+		    <h3 class="subtitle is-4">3. The Performance of Our Method Across Different Types of Garments</h3>
+		</div>
+		
+		
+        <!-- 继续保持间隔 -->
+        <div style="flex: 1 1 48%; margin-bottom: 20px; margin-right: 2%;">
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="./static/videos/five/green-pants.mp4" type="video/mp4">
+          </video>
+          <h3 class="has-text-centered">Green Pants #1</h3>
+        </div>
+        <div style="flex: 1 1 48%; margin-bottom: 20px;">
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="./static/videos/five/lan-pants.mp4" type="video/mp4">
+          </video>
+          <h3 class="has-text-centered">Blue Pants #2</h3>
+        </div>
+        <!-- 完整的间隔布局结束 -->
+		
+		<!-- 继续保持间隔 -->
+		<div style="flex: 1 1 48%; margin-bottom: 20px; margin-right: 2%;">
+		  <video autoplay controls muted loop playsinline style="width: 100%;">
+		    <source src="./static/videos/five/jumpsuit.mp4" type="video/mp4">
+		  </video>
+		  <h3 class="has-text-centered">Jumpsuit</h3>
+		</div>
+		<div style="flex: 1 1 48%; margin-bottom: 20px;">
+		  <video autoplay controls muted loop playsinline style="width: 100%;">
+		    <source src="./static/videos/five/dress.mp4" type="video/mp4">
+		  </video>
+		  <h3 class="has-text-centered">Dress</h3>
+		</div>
+		<!-- 完整的间隔布局结束 -->
+		
+		<!-- 继续保持间隔 -->
+		<div style="flex: 1 1 48%; margin-bottom: 20px; margin-right: 2%;">
+		  <video autoplay controls muted loop playsinline style="width: 100%;">
+		    <source src="./static/videos/five/green-shirts.mp4" type="video/mp4">
+		  </video>
+		  <h3 class="has-text-centered">Green Shirts</h3>
+		</div>
+		<div style="flex: 1 1 48%; margin-bottom: 20px;">
+		  <video autoplay controls muted loop playsinline style="width: 100%;">
+		    <source src="./static/videos/five/red-shirt.mp4" type="video/mp4">
+		  </video>
+		  <h3 class="has-text-centered">Red Shirts</h3>
+		</div>
+		<!-- 完整的间隔布局结束 -->
+		
+    </div>
+  </div>
+</section>
+
+
+
+<section class="hero teaser">
+  <div class="hero-body" style="background-color: #AAB6FE; padding: 20px 0;">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3" style="color: #FFFFFF; text-align: left; margin: 0;">Simulation Experiments</h2>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="hero teaser">
+  <div class="hero-body" style="background-color: #e0e0e0;">
+    <div class="container is-max-desktop">
+      <!-- 添加子标题 -->
+      <div style="width: 100%; margin-bottom: 20px;">
+          <h3 class="subtitle is-4">1. Qualitative Comparison of Different Methods on Long Sleeve Garments</h3>
+      </div>
+      <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+        <!-- 第一行视频 -->
+        <div style="flex: 1 1 32%; margin-bottom: 20px; margin-right: 1%;">
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="./static/videos/sim/sleeve/pick.mp4" type="video/mp4">
+          </video>
+          <h3 class="has-text-centered">Pick and Place</h3>
+        </div>
+        <div style="flex: 1 1 32%; margin-bottom: 20px; margin-right: 1%;">
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="./static/videos/sim/sleeve/drag.mp4" type="video/mp4">
+          </video>
+          <h3 class="has-text-centered">Pick and Drag</h3>
+        </div>
+        <div style="flex: 1 1 32%; margin-bottom: 20px;">
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="./static/videos/sim/sleeve/fling.mp4" type="video/mp4">
+          </video>
+          <h3 class="has-text-centered">Fling</h3>
+        </div>
+        <!-- 第二行视频，居中 -->
+        <div style="flex: 1 1 32%; margin-bottom: 20px; margin-right: 1%; margin-left: 16.5%;">
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="./static/videos/sim/sleeve/cloth-funnels.mp4" type="video/mp4">
+          </video>
+          <h3 class="has-text-centered">Cloth-funnels</h3>
+        </div>
+        <div style="flex: 1 1 32%; margin-bottom: 20px; margin-right: 16.5%;">
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="./static/videos/sim/sleeve/our.mp4" type="video/mp4">
+          </video>
+		<h3 class="has-text-centered" style="font-weight: bold; color: #FF0000;">Our Method</h3>
+        </div>
+		
+		
+		
+      </div>
+      <!-- 添加子标题 -->
+      <div style="width: 100%; margin-bottom: 20px;">
+          <h3 class="subtitle is-4">2. The Performance of Our Method Across Different Types of Garments</h3>
+      </div>
+      <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+        <div style="flex: 1 1 23%; margin-bottom: 20px; margin-right: 1%;">
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="./static/videos/sim/five/dress.mp4" type="video/mp4">
+          </video>
+          <h3 class="has-text-centered">Dress</h3>
+        </div>
+        <div style="flex: 1 1 23%; margin-bottom: 20px; margin-right: 1%;">
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="./static/videos/sim/five/jump.mp4" type="video/mp4">
+          </video>
+          <h3 class="has-text-centered">Jumpsuit</h3>
+        </div>
+        <div style="flex: 1 1 23%; margin-bottom: 20px; margin-right: 1%;">
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="./static/videos/sim/five/pants.mp4" type="video/mp4">
+          </video>
+          <h3 class="has-text-centered">Pants</h3>
+        </div>
+        <div style="flex: 1 1 23%; margin-bottom: 20px;">
+          <video autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="./static/videos/sim/five/skirts.mp4" type="video/mp4">
+          </video>
+          <h3 class="has-text-centered">Skirts</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+<hr/>
+
+<section class="section" id="BibTeX">
+  <div class="container content is-max-desktop">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{park2024,
+  author = {Changshi Zhou, Rong Jiang, Feng Luan, Zhipeng Wang, Yanchao Dong, Yanmin Zhou,  Bin He},
+  month = {dec},
+  year = {2024},
+  articleno = {238},
+}</code></pre>
+  </div>
+</section>
+
+
+
+<section class="footer">
+  <div class="container content is-max-desktop" style="padding: 20px;">
+    <div style="text-align: left;">
+      If you have any questions, please feel free to contact 
+      <a href="mailto:jhsignal@126.com">jhsignal@126.com</a>.
+    </div>
+  </div>
+</section>
+
+
+
+
+<script type="text/javascript" src="./static/slick/slick.min.js"></script>
+</body>
+</html>
